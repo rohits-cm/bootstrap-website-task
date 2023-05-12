@@ -4,10 +4,27 @@ body::before{
     height: 60px;
 }
 
+*{
+    scroll-behavior: smooth !important;
+}
 #map{
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+#card{
+    margin-bottom: -200px;
+    
+}
+
+#instructors {
+    margin-bottom: 150px;
+    
+}
+
+#nav{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 @media(min-width: 768px) {
     .text-form{
