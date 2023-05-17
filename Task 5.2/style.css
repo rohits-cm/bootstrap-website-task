@@ -1,0 +1,113 @@
+.hero-section {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.w25 {
+    max-width: 256px !important;
+    padding: 0 2rem;
+
+}
+
+.tech {
+    max-width: 64px;
+
+}
+
+@media (max-width:768px) {
+    .hero-section {
+        min-height: 30vh;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+    }
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.industoryItems {
+    display: flex;
+    flex-wrap: wrap;
+    width: unset !important;
+    gap: 50px;
+}
+
+.industries {
+    background-image: url(./industries-bg.png);
+   
+    background-size: cover;
+    width: 100%;
+    /* padding: 60px 80px;
+    padding-bottom: 20px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.industoriesHeading{
+    width: 18%;
+    display: inline-block;
+    /* width: 100%;
+    display: block; */
+    padding: 25px 0px;
+}
+.industoriesHeading h2{
+    font-size: 40px;
+    width: 220px;
+    /* width: 100%; */
+    text-align: left;
+    letter-spacing: 0.3px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+
+}
+.industriesContainer{
+    display: inline-block;
+    width: 81%;
+    vertical-align: top;
+}
+.industoryBox{
+    display: inline-flex;
+    width: 24%;
+    text-align: left;
+    margin-bottom: 40px;
+    vertical-align: top;
+    padding-left: 15px;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+
+}
+.industoryBox h5{
+    display: inline-block;
+    opacity: 0.9;
+    font-size: 22px;
+    letter-spacing: 0.17px;
+}
+.technologyContainer{
+    display: flex;
+    justify-content: center;
+}
+.technologyContainer li{
+    list-style: none;
+    border: 1px solid rgba(62, 180, 255, 0.3);
+    margin: 0px -2px;
+    padding: 15px 35px;
+}
+.technologyContainer li:first-child{
+    border-left: 1px solid rgba(62, 180, 255, 0.3);
+    border-right: 0;
+}
+.technologyContainer li:last-child{
+    border-right: 1px solid rgba(62, 180, 255, 0.3);
+    border-left: 0;
+}
